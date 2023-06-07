@@ -6,6 +6,7 @@ import OtherPage from "./OtherPage";
 import Fib from "./Fib";
 
 function App() {
+  console.log("Render");
   return (
     <Router>
       <div className="App">
@@ -18,7 +19,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React Deploy to AWS!
+            Fib caculate version 2
           </a>
           <Link to="/">Home</Link>
           <Link to="/otherpage">Other Page</Link>
